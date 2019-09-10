@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <a href="">列表页</a>
+    <Header/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
-
+import Header from "./components/Header"
 export default {
   name: 'home',
   components: {
-    
+     Header
   }
 }
 </script>
+
+
